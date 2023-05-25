@@ -33,6 +33,16 @@ pip install -r post_jax_requirements.txt
 
 ```
 
+## Get 16000 Hz data from hear
+* Follow https://hearbenchmark.com/hear-tasks.html to get data. By default, data on HEAR's zenodo page is 48000 Hz.
+* We recommend downloading data directly from HEAR's [GCS bucket](gs://hear2021-archive/tasks/), where you can find preprocessed 16000 Hz data.
+* Extract all the files to a folder `$TASKS_DIR`
+
+## Get pretrained weights
+
+* Pre-trained can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1NVEAOXsCNbpwhuH5zsyolAQm4xPggFiH?usp=sharing)
+* Download the entire `pretrained_weights` folder in the root repository, and paths will work automatically.
+
 ## Extract features
 
 ```shell
