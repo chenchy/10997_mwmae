@@ -1,7 +1,7 @@
 # Supplementary code repository for NeurIPS2023 submission "Masked Autoencoders with Multi-Window Attention Are Better Audio Learners"
 
 ## Contents
-* [Pre-trained weights corresponding to default MAE and MW-MAE configurations](pretrained_weights)
+* [Pre-trained weights corresponding to default MAE and MW-MAE configurations](https://drive.google.com/drive/folders/1NVEAOXsCNbpwhuH5zsyolAQm4xPggFiH?usp=sharing)
 * Our local copy of [hear-eval-kit](hear-eval-kit) for easy downstream reproducibility. Original can be found [here](https://github.com/hearbenchmark/hear-eval-kit)
 * [Feature extraction API](mwmae/hear_api) compatible with the [hear-eval-kit](https://github.com/hearbenchmark/hear-eval-kit) format for extracting features.
 * Helper code to [extract features](mwmae/extract_features.sh) and [run downstream experiments](mwmae/downstream_experiments.sh) on provided pre-trained models
